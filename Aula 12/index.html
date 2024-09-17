@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=table, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+<h1>FAZENDO TABELAS</h1>
+<hr>
+    <table border="1">
+        <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>Camiseta</td>
+            <td>R$ 39,90</td>
+        </tr>
+        <tr>
+            <td>Calça Jeans</td>
+            <td>R$ 89,90</td>
+        </tr>
+        <tr>
+            <td>Tênis</td>
+            <td>R$ 129,90</td>
+        </tr>
+    </table>
+<br>
+<hr>
+    <table border="1">
+    <thead>
+        <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Camiseta</td>
+            <td>R$ 39,90</td>
+        </tr>
+    </tbody>
+        <tbody>
+            <tr>
+                <td>Calça Jeans</td>
+                <td>R$ 89,90</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Tênis</td>
+                <td>R$ 129,90</td>
+            </tr>
+        </tfoot>
+    </table>
+<br>
+<hr>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+            <th colspan="2">Disponibilidade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Camiseta</td>
+            <td>R$ 39,90</td>
+            <td rowspan="2">Disponivel</td>
+            <td rowspan="2">Entregaem24h</td>
+        </tr>
+    
+        <tr>
+            <td>Tênis</td>
+            <td>R$ 129,90</td>
+    </tr>
+       <tr>
+        <td>Calça Jeans</td>
+        <td>R$ 89,90</td>
+        <td>Indisponivel</td>
+        <td>-</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total</td>
+            <td colspan="3">R$ 529</td>
+        </tr>
+    </tfoot>
+    </table>
+<br>
+<hr>
+<table border="1">
+    <thead>
+        <tr>
+            <th colspan="2">Brasil</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Estado</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td rowspan="4">São Paulo</td>      
+        </tr>
+        <tr>
+            <td>Corinthians</td>
+            <th>Palmeiras</th>
+            <td>São Paulo</td>
+            <td>Santos</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
