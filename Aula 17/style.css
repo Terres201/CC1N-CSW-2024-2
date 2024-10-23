@@ -1,0 +1,19 @@
+body{
+    background: black;
+    color: red;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+    background-color: white;
+    }
+
+h2 {
+    color: red;
+    }
+
+p {
+    color: blue;
+    font-size: small;
+    }
