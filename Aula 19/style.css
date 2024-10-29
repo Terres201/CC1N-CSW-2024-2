@@ -1,0 +1,58 @@
+
+#titulo {
+    text-align: center;
+    color: blue;
+}
+
+.esquerda {
+    text-align: left;
+}
+
+.direita {
+    text-align: right;
+}
+
+h1, h2 {
+    color: green;
+}
+
+#simples {
+    background-color: red;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.coluna {
+    display:inline-block;
+    background-color: red;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.centro {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.c_esquerda {
+    display:inline-block;
+    text-align: left;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+}
+
+.c_direita {
+    display:inline-block;
+    text-align: left;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.bloco{
+    text-align: center;
+}
